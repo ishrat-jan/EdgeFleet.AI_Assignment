@@ -13,15 +13,6 @@ Reproducibility: Includes full scripts for training, inference, and evaluation
 A complete computer vision pipeline to detect and track a cricket ball in single-camera
 broadcast videos. Outputs per-frame CSV annotations and processed MP4 videos with
 trajectory overlay.
-
-## Repository Structure
-code/
-  ├── train.ipynb          # Dataset construction + YOLOv8x fine-tuning
-  └── inference.ipynb      # SAHI inference, tracking, overlay rendering
-annotations/               # Per-video CSV files (frame, x, y, visible)
-results/                   # Processed MP4 videos with trajectory overlay
-weights/
-  └── best.pt              # Fine-tuned YOLOv8x weights
 README.md
 requirements.txt
 
